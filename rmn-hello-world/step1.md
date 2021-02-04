@@ -6,4 +6,4 @@ Create a `.py` file with the `print` function:
 
 See the contents of the file:
 
-`'cat hello-world.py'`{{execute}}
+`cat hello-world.py`{{execute}}
