@@ -25,6 +25,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "python"
+    "imageid": "python:3.8"
   }
 }
