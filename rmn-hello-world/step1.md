@@ -2,7 +2,7 @@
 
 Create a `.py` file with the `print` function:
 
-`echo 'print("Hello World!")' > hello-world.py'`{{execute}}
+`echo 'print("Hello World!")' > hello-world.py`{{execute}}
 
 See the contents of the file:
 
