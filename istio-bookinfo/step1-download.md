@@ -8,6 +8,6 @@ Move to the Istio package directory:
 
 `cd istio-1.9.0`{{execute}}
 
-Add the istioctl client to your path:
+Add the `istioctl` client to your path:
 
 `export PATH=$PWD/bin:$PATH`{{execute}}
