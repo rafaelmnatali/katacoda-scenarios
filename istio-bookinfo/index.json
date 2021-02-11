@@ -19,6 +19,11 @@
         "title": "Step 3",
         "text": "step3-deploy.md",
         "code": "clear.sh"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4-expose.md",
+        "code": "clear.sh"
       }
     ],
     "intro": {
@@ -29,10 +34,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "minikube-running",
-    "port": "32194"
+    "imageid": "minikube-running"
   }
 }
