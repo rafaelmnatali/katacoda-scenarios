@@ -43,6 +43,4 @@ Verify everything is working correctly up to this point. Run this command to see
 
 it should return:
 
-```
-<title>Simple Bookstore App</title>
-```
+`<title>Simple Bookstore App</title>`
