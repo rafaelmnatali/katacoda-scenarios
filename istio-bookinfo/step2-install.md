@@ -12,8 +12,19 @@ To confirm the installation was sucessfull execute the following commands:
 
 - `kubectl get namespaces default --show-labels`{{execute}}
 
-it should return `istio-injection=enabled` under the `LABELS` column
+it should return an information similar to this:
+
+```
+NAME      STATUS   AGE   LABELS
+default   Active   62s   istio-injection=enabled
+```
 
 - `istioctl version`{{execute}}
 
-it should return `1.9.0` for `client`, `control plane`, and `data plane` versions
+it should return an information similar to this:
+
+```
+client version: 1.9.0
+control plane version: 1.9.0
+data plane version: 1.9.0 (2 proxies)
+```
