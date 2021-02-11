@@ -36,3 +36,7 @@ reviews-v3-7dbcdcbc56-m8dph       2/2     Running   0          2m41s
 ```
 
 **Note**: Re-run the previous command and wait until all pods report `READY 2/2` and `STATUS Running` before you go to the next step. This might take a few minutes.
+
+Verify everything is working correctly up to this point. Run this command to see if the app is running inside the cluster and serving HTML pages by checking for the page title in the response:
+
+`kubectl exec "$(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}')" -c ratings -- curl -sS productpage:9080/productpage | grep -o "<title>.*</title>"`{{execute}}
