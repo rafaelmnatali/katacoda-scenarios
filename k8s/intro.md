@@ -8,3 +8,4 @@ Follow these steps to get started with Istio:
 2. Deploy the sample application
 3. Open the application to outside traffic
 4. View the dashboard
+5. Traffic management routing

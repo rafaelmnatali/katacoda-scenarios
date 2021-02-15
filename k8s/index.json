@@ -31,6 +31,11 @@
           "title": "Step 6",
           "text": "step6-kiali.md",
           "code": "clear.sh"
+        },
+        {
+          "title": "Step 7",
+          "text": "step7-traffic.md",
+          "code": "clear.sh"
         }
       ],
       "finish": {
