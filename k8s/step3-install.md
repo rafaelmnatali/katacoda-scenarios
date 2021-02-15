@@ -8,11 +8,11 @@ Add a namespace label to instruct Istio to automatically inject Istio configurat
 
 `kubectl label namespace default istio-injection=enabled`{{execute}}
 
-To confirm the installation was sucessfull execute the following commands:
+To confirm the installation was successful execute the following commands:
 
 - `kubectl get namespaces default --show-labels`{{execute}}
 
-it should return an information similar to this:
+it should return information similar to this:
 
 ```
 NAME      STATUS   AGE   LABELS
@@ -21,7 +21,7 @@ default   Active   62s   istio-injection=enabled
 
 - `istioctl version`{{execute}}
 
-it should return an information similar to this:
+it should return information similar to this:
 
 ```
 client version: 1.9.0

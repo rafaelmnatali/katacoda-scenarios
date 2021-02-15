@@ -10,9 +10,9 @@ To route to one version only, you apply virtual services that set the default ve
 
 - `kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml`{{execute}}
 
-Open the Bookinfo site in your browser. Notice that the reviews part of the page displays with no rating stars, no matter how many times you refresh. This is because you configured Istio to route all traffic for the reviews service to the version `reviews:v1` and this version of the service does not access the star ratings service.
+Open the Bookinfo site in your browser. Notice that the reviews part of the page displays with no rating stars, no matter how many times you refresh. This is because you configured Istio to route all traffic for the reviews service to the version `reviews:v1` and this version of the service does not access the star rating service.
 
-Access the Kiali dashboard and confirm the that only `v1` services are appearing in the Graph section.
+Access the Kiali dashboard and confirm that only `v1` services are appearing in the Graph section.
 
 - `istioctl dashboard kiali --address=0.0.0.0 --browser=false`{{execute}}
 
