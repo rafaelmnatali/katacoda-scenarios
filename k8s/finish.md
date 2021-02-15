@@ -1,12 +1,11 @@
-Start using the Multi-node Kubernetes environment for your content by setting the `imageid` to `kubernetes-cluster-running:1.18`.
+# Istio - Bookinfo application example
 
-For example:
+This guide helped you to quickly evaluate Istio using the sample application **Bookinfo**.
 
-<pre class="file">
-"environment": {
-  "uilayout": "terminal"
-},
-"backend": {
-  "imageid": "kubernetes-cluster-running:1.18"
-}
-</pre>
+Now you should be able to:
+
+1. Download and install Istio
+2. Deploy the sample application
+3. Open the application to outside traffic
+4. View the dashboard
+5. Traffic management routing
