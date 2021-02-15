@@ -12,9 +12,9 @@ Ensure that there are no issues with the configuration:
 
 Determine the `gateway` port:
 
-`export INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="http2")].nodePort}')`{{execute}}
+- `export INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="http2")].nodePort}')`{{execute}}
 
-`echo "$INGRESS_PORT"`{{execute}}
+- `echo "$INGRESS_PORT"`{{execute}}
 
 Open the following link in your browser. Please, replace the port `80` in the url with the `INGRESS_PORT` from the previous command:
 
