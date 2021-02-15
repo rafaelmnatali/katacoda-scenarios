@@ -19,4 +19,3 @@ Determine the `gateway` port:
 Open the following link in your browser. Please, replace the port `80` in the url with the `INGRESS_PORT` from the previous command:
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/productpage
-https://[[HOST_SUBDOMAIN]]-$INGRESS_PORT-[[KATACODA_HOST]].environments.katacoda.com/productpage
