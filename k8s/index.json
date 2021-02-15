@@ -5,7 +5,23 @@
       "steps": [
         {
           "title": "Step 1",
-          "text": "step1.md"
+          "text": "step1-download.md",
+          "code": "clear.sh"
+        },
+        {
+          "title": "Step 2",
+          "text": "step2-install.md",
+          "foreground": "minikube-init.sh"
+        },
+        {
+          "title": "Step 3",
+          "text": "step3-deploy.md",
+          "code": "clear.sh"
+        },
+        {
+          "title": "Step 4",
+          "text": "step4-expose.md",
+          "code": "clear.sh"
         }
       ],
       "finish": {
@@ -14,7 +30,7 @@
     },
     "environment": {
       "hideintro": true,
-      "uilayout": "terminal-terminal"
+      "uilayout": "terminal"
     },
     "backend": {
       "imageid": "kubernetes-cluster-running:1.18"
