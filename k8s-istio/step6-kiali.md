@@ -20,7 +20,7 @@ Access the Kiali dashboard by initializing in the terminal and then accessing th
 
 https://[[HOST_SUBDOMAIN]]-20001-[[KATACODA_HOST]].environments.katacoda.com
 
-**Note**: Generate some traffic by refreshing the `productpage` and see it in the dashboard how it reflects.
+**Note**: Generate some traffic by refreshing the `productpage` and see it in the dashboard.
 
 In the left navigation menu, select Graph, and in the Namespace drop-down, select default.
 The Kiali dashboard shows an overview of your mesh with the relationships between the services in the Bookinfo sample application. It also provides filters to visualize the traffic flow.
