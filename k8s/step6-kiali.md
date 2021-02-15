@@ -26,3 +26,5 @@ In the left navigation menu, select Graph, and in the Namespace drop-down, selec
 The Kiali dashboard shows an overview of your mesh with the relationships between the services in the Bookinfo sample application. It also provides filters to visualize the traffic flow.
 
 ![Kiali Dashboard](./assets/kiali.png)
+
+Before proceed press `CRTL+C` to stop Kiali. We will get back to it later on.
